@@ -1,0 +1,194 @@
+html,body{
+	width:100%;
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+	background:#fff;
+}
+
+main{
+	position: relative;
+	display: block;
+	display: block;
+	z-index: 1;
+}
+
+#home{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.container{
+	max-width: 960px !important; /*Esto es para forzar el contenedor con un máximo de 960px por que me creo la zorra
+*/
+}
+
+a.logo {
+	width: 147px;
+	position: relative;
+	display: block;
+	padding-top: 5px;
+}
+
+a.logo img{
+	width: 100%;
+}
+
+.navbar-default {
+background-color: white;
+border-bottom: 0px;
+border-radius: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+	background-color: gray;
+	text-align: center;
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+	background-color: gray;
+	text-align: center;
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	background-color: green;
+	text-align: center;
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a {
+	background-color: gray;
+	text-align: center;
+	color: #fff;
+}
+
+.banner{
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+
+.banner img{
+	width: 100%;
+}
+
+h1.thome{
+	color: gray;
+	text-align: center;
+	padding: 30px 0px;
+}
+
+h1.tnos{
+	color: gray;
+	text-align: left;
+	padding: 30px 0px;
+}
+
+.fotoshome{
+	width: 100%;
+	height: 200px;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.fotoshome img{
+	width: 100%;
+}
+
+.fotoshomenos{
+	width: 100%;
+	height: 250px;
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	background-color: red;
+	float: left;
+}
+
+.fotoshomenos img{
+	width: 100%;
+}
+
+p.h3home{
+	text-align: left;
+	margin-top: 0;
+}
+
+p.phome{
+	text-align: left;
+	padding-top: 10px;
+}
+
+p.h3home2{
+	text-align: right;
+}
+
+p.h3not{
+	text-align: left;
+}
+
+p.phome2{
+	text-align: right;
+	padding-top: 10px;
+}
+
+p.pnot{
+	text-align: left;
+	padding-top: 10px;
+}
+
+footer{
+	width: 100%;
+	background-color: #f1f1f1;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	padding-bottom: 60px;
+}
+
+footer ul{
+	position: relative;
+	margin: 10px auto 0 auto;
+	width: 90%;
+	display: block;
+	text-align: center;
+	padding: 0;
+}
+
+footer ul li{
+	display: inline-block;
+	width: 40px;
+	margin: 0;
+	padding: 0;
+}
+
+footer ul li img{
+	width: 100%;
+}
+
+footer p{
+	text-align: center;
+	color:gray;
+	padding: 10px 0;
+}
+
+form h3{
+	text-align: left;
+}
+
+form button{
+	background-color: black;
+	color: white;
+
+}
+
+form .form-control{
+	width: 70%;
+	display: block;
+	position: relative;
+	float: left;
+}
+
+
